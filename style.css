@@ -1,0 +1,52 @@
+*{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+    box-sizing: border-box;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*-------------Header------------*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 24px;
+}
+
+header nav div {
+    gap: 16px;
+    display: flex;
+}
+
+.boton{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 9px;
+    border: solid 2px transparente;
+
+    background-color: #79256F;
+    color: white;
+}
+
+/*-----------------jumbotron-------------------*/
+
+.jumbotron{
+    background-image: url(/assets/section\ \(1\).jpg);
+
+    height: 611px ;
+}
