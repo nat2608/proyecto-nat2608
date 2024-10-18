@@ -66,3 +66,34 @@ header nav div {
     font-weight: 700;
     text-align: center;
 }
+
+/*-----------------tarjetas-----------*/
+
+.section-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 300px,1fr));
+}
+
+.card {
+    background-color: #F2F2F2;
+}
+.card__imagen {
+    width: 100;
+}
+
+.card__contenedor__titulo {
+    font-size: 32px;
+}
+
+.card__contenedor__selection__buttonstallas {
+    font-size: 12;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
