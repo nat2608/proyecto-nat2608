@@ -69,28 +69,108 @@ header nav div {
 
 /*-----------------tarjetas-----------*/
 
-.section-card {
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax( 300px,1fr));  
+    grid-gap: 15px 15px;
 }
-
+  
 .card {
     background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+    padding: 24px;
 }
+
 .card__imagen {
-    width: 100;
+    width: 100%;
 }
 
 .card__contenedor__titulo {
     font-size: 32px;
+    font-weight: 600;
 }
 
-.card__contenedor__selection__buttonstallas {
-    font-size: 12;
-    font-weight: 400;
+.card__contenedor__precio {
+    font-size: 14px;
+    font-weight: 600;
 }
 
 
+    .card__contenedor__buttons__button1 {
+        background-color: #79256F;
+        border-radius: 100px;
+        width: 8%;
+    }
+    
+    .card__contenedor__buttons__button2 {
+        background-color: #C43DB5;
+        border-radius: 100px;
+        width: 8%;
+    
+}
+
+.card__contenedor__description {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+
+
+.card__contenedor__selection__buttonstallas__letra {
+    font-size: 12px;
+    color:white;
+    border-radius: 100px;
+    background-color: #79256F;
+    border:solid 2px black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+.card__contenedor__selection__buttonagregar {
+    font-size: 12px;
+    color:white;
+    border-radius: 100px;
+    background-color: #79256F;
+    border:solid 2px black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/*-----------section----------*/
+
+.section {
+    background-image: url(assets/section.jpg)
+    height: 611px ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h1 {
+    font-size: 3.5rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
 
 
 
