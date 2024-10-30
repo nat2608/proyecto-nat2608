@@ -1,0 +1,245 @@
+*{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+    box-sizing: border-box;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*-------------Header------------*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 24px;
+}
+
+header nav div {
+    gap: 16px;
+    display: flex;
+}
+
+.boton{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 9px;
+    border: solid 2px transparente;
+
+    background-color: #79256F;
+    color: white;
+}
+
+/*-----------------jumbotron-------------------*/
+
+.jumbotron{
+    background-image: url(/assets/section\ \(1\).jpg);
+
+    height: 611px ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*-----------------tarjetas-----------*/
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 300px,1fr));  
+    grid-gap: 15px 15px;
+}
+  
+.card {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+    padding: 24px;
+}
+
+.card__imagen {
+    width: 100%;
+}
+
+.card__contenedor__titulo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card__contenedor__precio {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+    .card__contenedor__buttons__button1 {
+        background-color: #79256F;
+        border-radius: 100px;
+        width: 8%;
+    }
+    
+    .card__contenedor__buttons__button2 {
+        background-color: #C43DB5;
+        border-radius: 100px;
+        width: 8%;
+    
+}
+
+.card__contenedor__description {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+
+
+.card__contenedor__selection__buttonstallas__letra {
+    font-size: 12px;
+    color:white;
+    border-radius: 100px;
+    background-color: #79256F;
+    border:solid 2px black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+.card__contenedor__selection__buttonagregar {
+    font-size: 12px;
+    color:white;
+    border-radius: 100px;
+    background-color: #79256F;
+    border:solid 2px black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/*-----------section----------*/
+
+.section {
+   background-image: url(assets/section.jpg);
+   height: 611px;
+   justify-content: left;
+    align-items: start;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px 100px;
+
+}
+
+.comienzo_a {
+    padding: 5px 65px;
+    align-items: center;
+}
+
+.section_email {
+    background-color: #85297A;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px 150px;
+    border: solid 2px trans;
+    
+}
+
+.section_contraseñas {
+    background-color: #85297A;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px 150px;
+    border: solid 2px trans;
+    
+}
+
+.section_iniciar {
+    background-color: #85297A;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 60px;
+    border: solid 2px trans;
+    
+}
+
+.footer {
+    background-color: #85297A;
+}
+
+.footer_1 {
+    padding: 15px 30px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    color: #D4D5D9;
+    font-size: 10px;
+}
+
+.correo {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
