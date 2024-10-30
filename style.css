@@ -220,6 +220,8 @@ header nav div {
     padding: 15px 30px;
     display: flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .email {
@@ -233,4 +235,11 @@ header nav div {
 
 .copyright {
     color: white;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
