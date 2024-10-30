@@ -157,23 +157,80 @@ header nav div {
 /*-----------section----------*/
 
 .section {
-    background-image: url(assets/section.jpg)
-    height: 611px ;
+   background-image: url(assets/section.jpg);
+   height: 611px;
+   justify-content: left;
+    align-items: start;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section h1 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     font-weight: 700;
     text-align: center;
+    padding: 60px 100px;
+
 }
 
+.comienzo_a {
+    padding: 5px 65px;
+    align-items: center;
+}
 
+.section_email {
+    background-color: #85297A;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px 150px;
+    border: solid 2px trans;
+    
+}
 
+.section_contraseñas {
+    background-color: #85297A;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: 12px 150px;
+    border: solid 2px trans;
+    
+}
 
+.section_iniciar {
+    background-color: #85297A;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 60px;
+    border: solid 2px trans;
+    
+}
 
+.footer {
+    background-color: #85297A;
+}
 
+.footer_1 {
+    padding: 15px 30px;
+    display: flex;
+    gap: 24px;
+}
+
+.email {
+    color: #D4D5D9;
+    font-size: 10px;
+}
+
+.correo {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
